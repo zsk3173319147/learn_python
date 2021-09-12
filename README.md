@@ -2,7 +2,7 @@
 Python 学习笔记
 
 这是我的Python学习笔记
-
+                                                 
 包括：
 
 基础编程    飞机大战项目
@@ -12,7 +12,7 @@ Python 学习笔记
 数据结构和算法    顺序表、链表、栈与队列、树   排序与搜索
 
 爬虫    urllib2  scrapy框架
-      
+      C:\Users\86153\Documents\GitHub\learn_python\Fluent python
       
       
       
