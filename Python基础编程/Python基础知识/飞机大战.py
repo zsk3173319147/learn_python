@@ -46,7 +46,7 @@ class HeroPlane(Plane):
     def __init__(self, screen, name):
         self.x = 240
         self.y = 600
-        self.imageName = './feiji/hero.gif'
+        self.imageName = 'Python基础编程\\Python基础知识\\feiji\\hero.gif'
         super().__init__(screen, name)
 
     def moveleft(self):
@@ -60,7 +60,7 @@ class EnemyPlane(Plane):
     def __init__(self, screen, name):
         self.x = 0
         self.y = 0
-        self.imageName = './feiji/enemy-1.gif'
+        self.imageName = 'Python基础编程\\Python基础知识\\feiji\\enemy-1.gif'
         super().__init__(screen, name)
         self.direction = "right"
 
@@ -129,12 +129,12 @@ class PublicBullet(object):
         if planeName == 'hero':
             self.x = x + 40
             self.y = y - 20
-            imageName = './feiji/bullet-3.gif'
+            imageName = 'Python基础编程\\Python基础知识\\feiji\\bullet-3.gif'
 
         elif planeName == 'enemy':
             self.x = x + 15
             self.y = y + 20
-            imageName = './feiji/bullet-1.gif'
+            imageName = 'Python基础编程\\Python基础知识\\feiji\\bullet-1.gif'
 
         self.heroimage = pygame.image.load(imageName).convert()
 
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     screen = pygame.display.set_mode((480, 800), 0, 32)
 
     # 2.创建一个和窗口大小的图片，用来充当背景
-    background = pygame.image.load('./feiji/background.png').convert()
+    background = pygame.image.load('Python基础编程\\Python基础知识\\feiji\\background.png').convert()
 
     # 3.创建一个飞机对象
     heroplane = HeroPlane(screen, 'hero')
